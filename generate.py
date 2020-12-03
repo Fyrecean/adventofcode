@@ -1,6 +1,10 @@
+'''
+    Generate directories and files for each day 
+'''
+
 import os
 
-for i in range(4, 26):
+for i in range(1, 26):
     os.system("mkdir " + str(i))
     os.chdir(str(i)) 
     with open("1.py", "x") as f:
