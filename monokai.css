@@ -1,0 +1,34 @@
+/* Custom CSS for advent of code because that color scheme is not nice */
+* {
+    background: rgba(39, 40, 34) !important;
+    color: rgb(248, 248, 242) !important;
+}
+a {
+    color: rgba(166, 226, 46, 1) !important;
+    text-decoration: underline;
+    text-shadow: None !important;
+}
+header h1 a,
+header h1 span {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(249, 38, 114) !important;
+    text-shadow: 0 0 2px rgb(249, 38, 114), 0 0 5px rgb(249, 38, 114);
+}
+em {
+    font-weight: 900 !important;
+}
+article em {
+    color: rgb(249, 38, 114) !important;
+    font-style: normal;
+    text-shadow: None !important;
+}
+.privboard-star-unlocked {
+    color: rgb(143, 144, 138) !important;
+}
+.privboard-star-firstonly {
+    color: #9999cc !important;
+}
+.privboard-star-both, .stats-both {
+    color: rgb(230, 219, 116) !important;
+}
