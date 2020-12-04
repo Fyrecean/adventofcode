@@ -1,2 +1,2 @@
-with open("243/in") as f:
+with open("24/in") as f:
     input = f.readlines()
